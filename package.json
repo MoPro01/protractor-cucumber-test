@@ -9,6 +9,11 @@
   },
   "private": true,
   "dependencies": {},
+  "scripts": {
+    "pretest": "webdriver-manager update",
+    "test": "concurrent -p command 'npm run test:e2e' 'npm run test:unit'",
+    "test:e2e": "protractor test/e2e/e2e.conf.js"
+  },
   "devDependencies": {
     "chai": "^3.4.1",
     "chai-as-promised": "^5.2.0",
