@@ -9,6 +9,10 @@
   },
   "private": true,
   "dependencies": {},
+  "scripts": {
+    "pretest": "webdriver-manager update",
+    "test": "protractor test/e2e/e2e.conf.js"
+  },
   "devDependencies": {
     "chai": "^3.4.1",
     "chai-as-promised": "^5.2.0",
