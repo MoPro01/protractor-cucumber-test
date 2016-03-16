@@ -1,0 +1,19 @@
+{
+  "name": "protractor-cucumber-test",
+  "version": "1.0.0",
+  "title": "Protractor Cucumber Sample",
+  "description": "Sample tests",
+  "contributors": [],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chai-as-promised": "^5.2.0",
+    "cucumber": "^0.9.2",
+    "protractor": "^3.0.0",
+    "protractor-cucumber-framework": "^0.3.2"
+  }
+}
