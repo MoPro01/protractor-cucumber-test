@@ -6,7 +6,6 @@ exports.config = {
 
     suites: {
         all: 'features/*.feature',
-        bootstrap: 'features/bootstrap.feature',
         login: 'features/login.feature'
     },
 
